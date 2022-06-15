@@ -1,10 +1,11 @@
 import "./App.css";
-import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <h1 className="bg-danger">hello world</h1>
+      <Navbar />
     </>
   );
 }
